@@ -30,3 +30,4 @@ $client = new Client($settings);
 $adapter = new WebDAVAdapter($client);
 $flysystem = new Filesystem($adapter);
 ```
+I have added stream support logic, that the request should get and send large files via stream
